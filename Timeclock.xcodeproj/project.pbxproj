@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28708FB91C659B720088DA94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28708FB81C659B720088DA94 /* main.m */; };
+		28708FBC1C659B720088DA94 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28708FBB1C659B720088DA94 /* AppDelegate.m */; };
+		28708FBF1C659B720088DA94 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28708FBE1C659B720088DA94 /* ViewController.m */; };
+		28708FC21C659B720088DA94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28708FC01C659B720088DA94 /* Main.storyboard */; };
+		28708FC41C659B720088DA94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28708FC31C659B720088DA94 /* Assets.xcassets */; };
+		28708FC71C659B720088DA94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28708FC51C659B720088DA94 /* LaunchScreen.storyboard */; };
+		28708FD21C659B720088DA94 /* TimeclockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28708FD11C659B720088DA94 /* TimeclockTests.m */; };
+		28708FDD1C659B720088DA94 /* TimeclockUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28708FDC1C659B720088DA94 /* TimeclockUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28708FCE1C659B720088DA94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28708FAC1C659B720088DA94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28708FB31C659B720088DA94;
+			remoteInfo = Timeclock;
+		};
+		28708FD91C659B720088DA94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28708FAC1C659B720088DA94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28708FB31C659B720088DA94;
+			remoteInfo = Timeclock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28708FB41C659B720088DA94 /* Timeclock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timeclock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28708FB81C659B720088DA94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		28708FBA1C659B720088DA94 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		28708FBB1C659B720088DA94 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		28708FBD1C659B720088DA94 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		28708FBE1C659B720088DA94 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		28708FC11C659B720088DA94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		28708FC31C659B720088DA94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28708FC61C659B720088DA94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		28708FC81C659B720088DA94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28708FCD1C659B720088DA94 /* TimeclockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeclockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28708FD11C659B720088DA94 /* TimeclockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeclockTests.m; sourceTree = "<group>"; };
+		28708FD31C659B720088DA94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28708FD81C659B720088DA94 /* TimeclockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeclockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28708FDC1C659B720088DA94 /* TimeclockUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeclockUITests.m; sourceTree = "<group>"; };
+		28708FDE1C659B720088DA94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28708FB11C659B720088DA94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28708FCA1C659B720088DA94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28708FD51C659B720088DA94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28708FAB1C659B720088DA94 = {
+			isa = PBXGroup;
+			children = (
+				28708FB61C659B720088DA94 /* Timeclock */,
+				28708FD01C659B720088DA94 /* TimeclockTests */,
+				28708FDB1C659B720088DA94 /* TimeclockUITests */,
+				28708FB51C659B720088DA94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28708FB51C659B720088DA94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28708FB41C659B720088DA94 /* Timeclock.app */,
+				28708FCD1C659B720088DA94 /* TimeclockTests.xctest */,
+				28708FD81C659B720088DA94 /* TimeclockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28708FB61C659B720088DA94 /* Timeclock */ = {
+			isa = PBXGroup;
+			children = (
+				28708FBA1C659B720088DA94 /* AppDelegate.h */,
+				28708FBB1C659B720088DA94 /* AppDelegate.m */,
+				28708FBD1C659B720088DA94 /* ViewController.h */,
+				28708FBE1C659B720088DA94 /* ViewController.m */,
+				28708FC01C659B720088DA94 /* Main.storyboard */,
+				28708FC31C659B720088DA94 /* Assets.xcassets */,
+				28708FC51C659B720088DA94 /* LaunchScreen.storyboard */,
+				28708FC81C659B720088DA94 /* Info.plist */,
+				28708FB71C659B720088DA94 /* Supporting Files */,
+			);
+			path = Timeclock;
+			sourceTree = "<group>";
+		};
+		28708FB71C659B720088DA94 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28708FB81C659B720088DA94 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		28708FD01C659B720088DA94 /* TimeclockTests */ = {
+			isa = PBXGroup;
+			children = (
+				28708FD11C659B720088DA94 /* TimeclockTests.m */,
+				28708FD31C659B720088DA94 /* Info.plist */,
+			);
+			path = TimeclockTests;
+			sourceTree = "<group>";
+		};
+		28708FDB1C659B720088DA94 /* TimeclockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				28708FDC1C659B720088DA94 /* TimeclockUITests.m */,
+				28708FDE1C659B720088DA94 /* Info.plist */,
+			);
+			path = TimeclockUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28708FB31C659B720088DA94 /* Timeclock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28708FE11C659B720088DA94 /* Build configuration list for PBXNativeTarget "Timeclock" */;
+			buildPhases = (
+				28708FB01C659B720088DA94 /* Sources */,
+				28708FB11C659B720088DA94 /* Frameworks */,
+				28708FB21C659B720088DA94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Timeclock;
+			productName = Timeclock;
+			productReference = 28708FB41C659B720088DA94 /* Timeclock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28708FCC1C659B720088DA94 /* TimeclockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28708FE41C659B720088DA94 /* Build configuration list for PBXNativeTarget "TimeclockTests" */;
+			buildPhases = (
+				28708FC91C659B720088DA94 /* Sources */,
+				28708FCA1C659B720088DA94 /* Frameworks */,
+				28708FCB1C659B720088DA94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28708FCF1C659B720088DA94 /* PBXTargetDependency */,
+			);
+			name = TimeclockTests;
+			productName = TimeclockTests;
+			productReference = 28708FCD1C659B720088DA94 /* TimeclockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		28708FD71C659B720088DA94 /* TimeclockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28708FE71C659B720088DA94 /* Build configuration list for PBXNativeTarget "TimeclockUITests" */;
+			buildPhases = (
+				28708FD41C659B720088DA94 /* Sources */,
+				28708FD51C659B720088DA94 /* Frameworks */,
+				28708FD61C659B720088DA94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28708FDA1C659B720088DA94 /* PBXTargetDependency */,
+			);
+			name = TimeclockUITests;
+			productName = TimeclockUITests;
+			productReference = 28708FD81C659B720088DA94 /* TimeclockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28708FAC1C659B720088DA94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Austin Byrd";
+				TargetAttributes = {
+					28708FB31C659B720088DA94 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 556TDY4JQ5;
+					};
+					28708FCC1C659B720088DA94 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 556TDY4JQ5;
+						TestTargetID = 28708FB31C659B720088DA94;
+					};
+					28708FD71C659B720088DA94 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 556TDY4JQ5;
+						TestTargetID = 28708FB31C659B720088DA94;
+					};
+				};
+			};
+			buildConfigurationList = 28708FAF1C659B720088DA94 /* Build configuration list for PBXProject "Timeclock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28708FAB1C659B720088DA94;
+			productRefGroup = 28708FB51C659B720088DA94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28708FB31C659B720088DA94 /* Timeclock */,
+				28708FCC1C659B720088DA94 /* TimeclockTests */,
+				28708FD71C659B720088DA94 /* TimeclockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28708FB21C659B720088DA94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28708FC71C659B720088DA94 /* LaunchScreen.storyboard in Resources */,
+				28708FC41C659B720088DA94 /* Assets.xcassets in Resources */,
+				28708FC21C659B720088DA94 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28708FCB1C659B720088DA94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28708FD61C659B720088DA94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28708FB01C659B720088DA94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28708FBF1C659B720088DA94 /* ViewController.m in Sources */,
+				28708FBC1C659B720088DA94 /* AppDelegate.m in Sources */,
+				28708FB91C659B720088DA94 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28708FC91C659B720088DA94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28708FD21C659B720088DA94 /* TimeclockTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28708FD41C659B720088DA94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28708FDD1C659B720088DA94 /* TimeclockUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28708FCF1C659B720088DA94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28708FB31C659B720088DA94 /* Timeclock */;
+			targetProxy = 28708FCE1C659B720088DA94 /* PBXContainerItemProxy */;
+		};
+		28708FDA1C659B720088DA94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28708FB31C659B720088DA94 /* Timeclock */;
+			targetProxy = 28708FD91C659B720088DA94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		28708FC01C659B720088DA94 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28708FC11C659B720088DA94 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		28708FC51C659B720088DA94 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28708FC61C659B720088DA94 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28708FDF1C659B720088DA94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		28708FE01C659B720088DA94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28708FE21C659B720088DA94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Timeclock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ATB.Timeclock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		28708FE31C659B720088DA94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Timeclock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ATB.Timeclock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		28708FE51C659B720088DA94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TimeclockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ATB.TimeclockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Timeclock.app/Timeclock";
+			};
+			name = Debug;
+		};
+		28708FE61C659B720088DA94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TimeclockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ATB.TimeclockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Timeclock.app/Timeclock";
+			};
+			name = Release;
+		};
+		28708FE81C659B720088DA94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TimeclockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ATB.TimeclockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Timeclock;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		28708FE91C659B720088DA94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TimeclockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ATB.TimeclockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Timeclock;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28708FAF1C659B720088DA94 /* Build configuration list for PBXProject "Timeclock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28708FDF1C659B720088DA94 /* Debug */,
+				28708FE01C659B720088DA94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28708FE11C659B720088DA94 /* Build configuration list for PBXNativeTarget "Timeclock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28708FE21C659B720088DA94 /* Debug */,
+				28708FE31C659B720088DA94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		28708FE41C659B720088DA94 /* Build configuration list for PBXNativeTarget "TimeclockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28708FE51C659B720088DA94 /* Debug */,
+				28708FE61C659B720088DA94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		28708FE71C659B720088DA94 /* Build configuration list for PBXNativeTarget "TimeclockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28708FE81C659B720088DA94 /* Debug */,
+				28708FE91C659B720088DA94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28708FAC1C659B720088DA94 /* Project object */;
+}
